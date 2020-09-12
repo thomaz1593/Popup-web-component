@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopUp Web Component</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My awesome tooltip</h1>
+      <p>
+        Lorem ipsum dolor sit amet
+        <popup-notify tip_background="#FFCC00" tip_color="#FFF">
+          <span slot="message"
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos, laboriosam!</span
+          >
+        </popup-notify>
+        consectetur adipisicing elit. Sint ipsam, laborum fuga
+        <popup-notify tip_color="gray">
+          <span slot="message">Yo what's up my dudes!</span> </popup-notify
+        >praesentium temporibus eligendi!
+      </p>
+    </div>
+
+    <script src="popupNotify.js"></script>
+  </body>
+</html>
